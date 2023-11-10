@@ -233,15 +233,15 @@
           "type": "battery"
         },
         {
-          "background": "#40c4ff",
+          "background": "#00a8f3",
           "foreground": "#ffffff",
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
           "properties": {
-            "time_format": "_2,03:04 PM"
+            "time_format": "03:04 PM"
           },
           "style": "diamond",
-          "template": " \uf073 {{ .CurrentDate | date .Format }} ",
+          "template": " \udb82\udd54 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
         }
